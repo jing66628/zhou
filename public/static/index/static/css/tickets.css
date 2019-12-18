@@ -1,0 +1,173 @@
+.main {
+    width: 100%;
+}
+
+.main .top_img {
+    height: 440px;
+    width: 100%;
+    background: url(../images/booking/tickets_01.jpg);
+}
+
+.main .tickets_nav {
+    position: relative;
+    height: 50px;
+    border-bottom: 1px solid #A4AEAF;
+}
+
+.main .tickets_nav .tickets_navheader {
+    cursor: default;
+    line-height: 50px;
+    color: #000;
+}
+
+.main .tickets_nav .tickets_login {
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
+
+.main .tickets_color {
+    color: #7e808a;
+    position: relative;
+    z-index: 3;
+}
+
+.main .tickets_nav .tickets_navheader a::before {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    z-index: 1;
+    content: '';
+    transition: 0.2s;
+    border-bottom: 1px solid #7e808a;
+    background: transparent;
+    transform: translate(0, 0px);
+}
+
+.main .tickets_nav .tickets_navheader a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.main .tickets_img {
+    height: 570px;
+    border-bottom: 1px dotted #000;
+}
+
+.main .tickets_img .tickets_pwcz {
+    line-height: 120px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.main .tickets_ty {
+    line-height: 90px !important;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.main .tickets_img .tickets_jiage li {
+    float: left;
+    width: 350px;
+    margin-left: 75px;
+}
+
+.main .tickets_img .tickets_jiage li:first-child {
+    margin-left: 0px;
+}
+
+.main .tickets_img .tickets_jiage li p {
+    position: relative;
+    font-size: 18px;
+    line-height: 100px;
+}
+
+.main .tickets_img .tickets_jiage li p .pone {
+    display: inline-block;
+    float: right;
+    line-height: 20px;
+    margin-top: 38px;
+}
+
+.main .tickets_img .tickets_jiage li p .pone span {
+    padding: 5px 7px;
+    border: 2px solid #555;
+}
+
+.main .tickets_img .tickets_jiage li .pw {
+    color: red;
+    position: absolute;
+    border: none;
+    font-size: 12px;
+    left: 302px;
+}
+
+.main .tickets_text {
+    height: 670px;
+}
+
+.main .tickets_text .text_left {
+    float: left;
+    padding-top: 20px;
+    width: 583px;
+    height: 380px;
+}
+
+.main .tickets_text p {
+    line-height: 26px;
+}
+
+.main .tickets_text .text_left p:first-child {
+    line-height: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main .tickets_text .text_left p:nth-child(6) {
+    color: #000;
+    font-weight: 550;
+}
+
+.main .tickets_text .text_right {
+    float: right;
+    padding-top: 20px;
+    width: 583px;
+    height: 380px;
+}
+
+.main .tickets_text .text_right div p:first-child {
+    line-height: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main .tickets_ljyd {
+    margin: 0 auto;
+    margin-top: 480px;
+    height: 40px;
+    width: 110px;
+}
+
+.main .tickets_ljyd a {
+    position: relative;
+    display: block;
+    border-bottom: 2px solid #000;
+}
+
+.main .tickets_ljyd a p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.main .tickets_ljyd a span {
+    position: absolute;
+    display: inline-block;
+    width: 5px;
+    height: 7.5px;
+    top: 18px;
+    left: 100px;
+    background: url(../images/menu-icon.png);
+    background-size: cover;
+}

@@ -1,0 +1,59 @@
+/*古镇旅游样式代码*/
+
+.nav_ancientbgimg {
+    background-image: url(../images/general/ancientTown_bg.jpg);
+    height: 600px;
+    width: 100%;
+    min-width: 1200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_ancientTown {
+    background: #eef6f8;
+    padding: 1px 0;
+    min-width: 75pc;
+}
+
+.ancientTown_box {
+    width: 75pc;
+    margin: 0 auto;
+}
+
+.ancientTown_h1 {
+    background: url(../images/general/ancientTown16.png) no-repeat left bottom;
+    text-align: left;
+    border-bottom: 1px solid #C2CBCD;
+    font-weight: normal;
+    padding-top: 40px;
+    height: 94px;
+    font-size: 30px;
+    color: #555;
+    line-height: 110px;
+    margin-bottom: 20px;
+}
+
+.ancientTown_h1 span {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.ancientTown_mainbox {
+    color: #555;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    padding-bottom: 50px;
+}
+
+.ancientTown_mainbox p {
+    margin-bottom: 15px;
+    text-indent: 34px;
+}
+
+.ancientTown_mainbox img {
+    display: inline-block !important;
+}
+
+
+/*古镇旅游样式代码*/

@@ -1,0 +1,1527 @@
+---------------------------------------------------------------
+[ 2019-12-12T08:51:44+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060339s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.109648s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000790s ]
+---------------------------------------------------------------
+[ 2019-12-12T08:53:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003271s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020928s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2019-12-12T08:54:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002680s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019252s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000827s ]
+---------------------------------------------------------------
+[ 2019-12-12T08:54:32+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002481s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020493s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2019-12-12T08:55:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021523s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.031534s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2019-12-12T08:55:36+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012848s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025374s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000776s ]
+---------------------------------------------------------------
+[ 2019-12-12T08:55:43+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012135s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022581s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-12-12T08:56:34+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012791s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020424s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2019-12-12T08:58:33+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011830s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021215s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000841s ]
+---------------------------------------------------------------
+[ 2019-12-12T09:13:51+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002544s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027784s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000693s ]
+---------------------------------------------------------------
+[ 2019-12-12T09:14:35+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002699s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023060s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2019-12-12T09:14:37+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002101s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020909s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2019-12-12T09:14:47+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002506s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.031588s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[ 2019-12-12T09:14:51+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012290s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.028673s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000651s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-12T09:14:51+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003865s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025109s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000533s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-12T09:15:36+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002141s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023602s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000535s ]
+---------------------------------------------------------------
+[ 2019-12-12T09:15:52+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002021s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021078s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000772s ]
+---------------------------------------------------------------
+[ 2019-12-12T09:18:13+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013021s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.031955s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000620s ]
+---------------------------------------------------------------
+[ 2019-12-12T09:19:24+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004627s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027466s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000691s ]
+---------------------------------------------------------------
+[ 2019-12-12T09:19:44+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001789s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021577s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000854s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:20:17+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002460s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.032349s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:22:22+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011408s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021400s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:26:09+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012004s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021815s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000863s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:31:31+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002532s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020088s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000628s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:32:26+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002996s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021456s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:34:29+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010803s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025269s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000792s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:35:30+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011009s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020531s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000576s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-12T10:39:32+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012002s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.029405s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000780s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:39:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012122s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021192s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:53:48+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019234s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.040478s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000852s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:55:00+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002132s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027465s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:58:17+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001896s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021307s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:58:20+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010846s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019839s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2019-12-12T10:59:21+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002319s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023092s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:00:34+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001960s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024743s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:00:36+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011490s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019902s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:01:03+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010820s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020468s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:04:09+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002561s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022042s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:04:55+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011720s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024006s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:05:01+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003027s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019968s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:06:35+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012288s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022060s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:06:41+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012189s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021302s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:06:55+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002565s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021306s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:08:31+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011332s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019957s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:12:59+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012925s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022780s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:13:19+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011697s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022533s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:13:36+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002412s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025805s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:07+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001791s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.026292s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:14+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012253s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021984s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:17+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012298s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025022s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000722s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:19+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010730s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020305s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000629s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:20+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011459s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021277s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:21+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012503s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021179s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:23+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011494s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020945s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000702s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:23+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002797s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.013471s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:24+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011069s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021310s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000740s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:25+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012127s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019970s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000580s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:26+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012353s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022689s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:27+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010791s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019906s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:27+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011724s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.011110s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.001009s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011086s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020506s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:29+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011830s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021940s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000750s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:14:30+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002626s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020376s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:16:57+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002139s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023319s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:16:59+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011179s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022665s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000694s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:17:04+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002402s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021529s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[ 2019-12-12T11:18:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011285s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020458s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2019-12-12T12:23:00+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.058148s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.096616s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000748s ]
+---------------------------------------------------------------
+[ 2019-12-12T12:24:52+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011940s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020251s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2019-12-12T12:37:24+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002210s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020541s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[ 2019-12-12T12:37:31+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010763s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.030800s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000569s ]
+---------------------------------------------------------------
+[ 2019-12-12T12:38:53+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011256s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020506s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2019-12-12T12:39:06+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011247s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020926s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2019-12-12T12:39:50+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002068s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019490s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2019-12-12T12:40:06+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012845s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021746s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000585s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-12T12:53:15+08:00 ] 127.0.0.1 POST zhouzhuang.com/admin/login/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003032s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin` [ RunTime:0.075631s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin` WHERE  `admin_name` = 'admin'  AND `status` = '1' LIMIT 1 [ RunTime:0.001025s ]
+[ sql ] [ SQL ] UPDATE `zz_admin`  SET `login_time`=1576126395,`login_ip`='127.0.0.1'  WHERE  `admin_name` = 'admin' [ RunTime:0.000783s ]
+---------------------------------------------------------------
+[ 2019-12-12T12:53:17+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/user/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012273s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.076452s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.074434s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:14:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002181s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.833245s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000610s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:15:30+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011782s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.020838s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000756s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:15:39+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010715s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.020135s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:15:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011928s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.015149s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:16:05+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/4.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002271s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020092s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 4 [ RunTime:0.000762s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:18:04+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/article/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011170s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024219s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:18:04+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/article/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012007s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.012172s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000632s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:18:46+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/product/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002030s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.025261s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:19:15+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/order/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012513s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_order` [ RunTime:0.090434s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_order` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000795s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:20:10+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/order/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012456s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_order` [ RunTime:0.029639s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_order` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000782s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:20:29+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/order/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002017s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_order` [ RunTime:0.020372s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_order` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:20:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/order/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001952s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_order` [ RunTime:0.019271s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_order` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:20:46+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/order/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012317s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_order` [ RunTime:0.021939s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_order` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:21:24+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/user/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011716s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.024264s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000999s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:21:54+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/admin/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012086s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin` [ RunTime:0.019612s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 1 [ RunTime:0.055389s ]
+[ sql ] [ SQL ] SELECT a.*,(b.role_name) role_names FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 0,15 [ RunTime:0.000721s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000813s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:21:59+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/article/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011555s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022805s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000595s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:22:02+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/product/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011461s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019202s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000590s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:22:06+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/product/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011237s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020980s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:22:09+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/user/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011267s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.019878s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000686s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:22:13+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/role/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011564s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_role` [ RunTime:0.021921s ]
+[ sql ] [ SQL ] SELECT a.*,group_concat(c.auth_name) auth_names FROM `zz_role` `a` LEFT JOIN `zz_role_auth` `b` ON `a`.`id`=`b`.`role_id` LEFT JOIN `zz_auth` `c` ON `b`.`auth_id`=`c`.`id` GROUP BY `a`.`id` [ RunTime:0.042857s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:22:16+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/auth/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010709s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_auth` [ RunTime:0.022730s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_auth` LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_auth` ORDER BY `ids_path` ASC LIMIT 0,15 [ RunTime:0.000666s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000759s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:22:19+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/admin/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011131s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin` [ RunTime:0.018468s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT a.*,(b.role_name) role_names FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 0,15 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:22:51+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/admin/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011532s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin` [ RunTime:0.019496s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT a.*,(b.role_name) role_names FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 0,15 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000669s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:32:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002897s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023678s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:35:03+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013093s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.026811s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000722s ]
+---------------------------------------------------------------
+[ 2019-12-12T13:36:42+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/order/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011495s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_order` [ RunTime:0.023197s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_order` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:08:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.326875s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:1.001621s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.090020s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:09:24+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001235s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019042s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:12:13+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011669s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024237s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:23:07+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023198s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027140s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000844s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:23:59+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012224s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020532s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000640s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:24:04+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011058s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021524s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:24:15+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011988s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.088093s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000815s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:24:43+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011603s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.068980s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = '1525109317' LIMIT 1 [ RunTime:0.006295s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:25:00+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011766s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023028s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000466s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-12T14:25:21+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002493s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.022008s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = '1525109317' LIMIT 1 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:25:37+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002100s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.021670s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:25:37+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011947s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.016946s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:25:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booklist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010623s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_order` [ RunTime:0.101779s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_order` WHERE  `order_user` = 'admin' [ RunTime:0.000694s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:25:46+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002117s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.043333s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000600s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:25:49+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012105s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.021772s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.069455s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:27:03+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001501s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020723s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:30:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012080s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023559s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000833s ]
+---------------------------------------------------------------
+[ 2019-12-12T14:30:45+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012180s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.029235s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:06:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003482s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.036651s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000593s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:06:52+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010633s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021552s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:07:38+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013081s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021646s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:08:12+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011722s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024453s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000856s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:09:13+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003258s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022963s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:10:11+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011748s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025278s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:10:17+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001605s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.029113s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:11:35+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012285s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023928s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.001393s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:13:01+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001572s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022055s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:14:05+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001477s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021644s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:14:44+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012211s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023743s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:15:02+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001633s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025920s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:15:33+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011997s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022451s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:15:42+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001688s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.026743s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:16:20+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011528s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.031453s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:16:34+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011393s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020536s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000641s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:20:53+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011975s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022177s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000708s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:22:09+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002283s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027536s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:22:38+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012212s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022057s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:23:18+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001433s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025149s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000534s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:26:18+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002003s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.034960s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000651s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:27:51+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012381s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021927s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:28:06+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011013s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020827s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000876s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:28:09+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001442s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024637s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:28:17+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012047s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023836s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:28:23+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001663s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024821s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000915s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:29:46+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012335s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021061s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:29:48+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012884s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022578s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:29:52+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003198s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027381s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000791s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:32:29+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011908s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023089s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000547s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:32:35+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020380s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:32:42+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012990s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020856s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:35:10+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011446s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024128s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.001127s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:36:06+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012042s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024544s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:36:12+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011003s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022534s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:36:38+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012353s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022453s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:37:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001815s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021850s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:39:07+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001856s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025539s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:40:59+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023105s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:41:07+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001730s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022808s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000628s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:41:17+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011986s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023420s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:41:50+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011717s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022577s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000892s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:41:55+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012676s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019720s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000532s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:42:19+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001320s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021407s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:42:51+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001486s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.032947s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000578s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-12T15:42:51+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003613s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.031539s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000491s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-12T15:45:11+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002123s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027785s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:47:26+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011665s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020890s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:47:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011424s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022828s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000650s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:50:48+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012194s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024876s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:51:22+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011949s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023234s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:51:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010405s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019973s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.001031s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:52:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011470s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021484s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:54:30+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001457s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020427s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000705s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:54:38+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011136s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.032439s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000595s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:54:42+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002009s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023672s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:54:59+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001476s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.028282s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000521s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:56:11+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011576s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021564s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000627s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:56:43+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011722s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020679s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:58:04+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001490s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021779s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:58:06+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010891s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019762s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2019-12-12T15:59:09+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002187s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.026000s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:00:34+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011650s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023375s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000654s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:02:25+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002494s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022025s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000580s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:03:15+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001401s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021008s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:04:21+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001276s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024900s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000571s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:05:25+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001511s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021383s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:07:20+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011716s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021622s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:08:34+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001451s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020290s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:09:33+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010959s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021843s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:12:07+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002423s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023638s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:15:10+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012398s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021764s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:16:52+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001767s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022656s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:17:34+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001583s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020254s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:18:33+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001962s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025264s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000814s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:18:48+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011261s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020920s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:22:59+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012264s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025116s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:24:14+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011474s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024633s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000740s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:29:13+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011996s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022693s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:29:15+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011479s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020145s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000571s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:29:19+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011704s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021383s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:39:29+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003009s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021829s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000654s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:41:00+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011171s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.026274s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000760s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:42:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003405s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023735s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000402s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:43:02+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010706s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020740s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:43:16+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001691s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021111s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000870s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:44:01+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001940s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020478s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:44:02+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010877s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023058s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000499s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:44:10+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011258s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024585s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000591s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:44:14+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001451s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.029212s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:44:34+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011731s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020137s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000799s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:45:04+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011748s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020717s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:45:23+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012173s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022616s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000643s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:45:29+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010911s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024697s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:45:37+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001797s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020564s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:46:11+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011366s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024840s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:46:26+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001850s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.029062s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000480s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:46:27+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001598s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020046s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000813s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:46:43+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011955s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020878s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:47:02+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011984s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023468s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:47:13+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011759s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020479s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2019-12-12T16:47:15+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011664s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021675s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:43:00+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032616s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.082092s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000898s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:43:33+08:00 ] 127.0.0.1 POST zhouzhuang.com/admin/login/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011560s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin` [ RunTime:0.082288s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin` WHERE  `admin_name` = 'admin'  AND `status` = '1' LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] UPDATE `zz_admin`  SET `login_time`=1576147413,`login_ip`='127.0.0.1'  WHERE  `admin_name` = 'admin' [ RunTime:0.000675s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:43:35+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/user/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011509s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.088933s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.063265s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:43:38+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/user/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011671s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.023133s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000647s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:43:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/product/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011396s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.071721s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000611s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:43:42+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011099s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.018766s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:44:47+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001517s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.018866s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:48:52+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002074s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.025505s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:49:15+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011371s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.031203s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000550s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:49:59+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011825s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.028548s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:50:19+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011706s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019717s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:50:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001210s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023549s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:50:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012630s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020384s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:55:38+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016021s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024376s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:55:45+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001756s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019691s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:56:01+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001963s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020935s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000524s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:56:07+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010885s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020811s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:56:13+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010992s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021311s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:57:24+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001521s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022036s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000695s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:58:04+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001697s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022296s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:58:36+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012818s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019993s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:58:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001423s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020903s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:58:41+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010936s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019730s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:58:54+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010548s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019974s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000634s ]
+---------------------------------------------------------------
+[ 2019-12-12T18:59:34+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001502s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.030218s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:00:55+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010579s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:01:22+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001947s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019458s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:02:25+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011601s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021583s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000843s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:02:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001416s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027275s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:02:55+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001666s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.026874s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:03:26+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011785s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020526s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000579s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-12T19:04:45+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001826s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020148s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:04:53+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011326s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022218s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000721s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:05:21+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001800s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024332s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:05:48+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001890s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021973s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:06:42+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011073s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020034s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000873s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:07:32+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001446s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020917s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000634s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:07:47+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011812s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022867s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:08:49+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002018s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.030250s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000502s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:09:42+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003086s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.034852s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000619s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:10:38+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001433s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019660s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:10:53+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001596s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023441s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000499s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:11:04+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001283s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.029896s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:11:16+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002336s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023401s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:11:34+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002164s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.029483s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:12:26+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001422s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.040742s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:12:33+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011191s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022568s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:12:55+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002911s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.040714s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:14:08+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002767s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.061697s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:14:36+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001305s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.041825s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:15:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001597s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020706s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:17:13+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001424s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.036410s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:17:18+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011437s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019664s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:17:27+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001308s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021402s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:18:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001685s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022224s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:19:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002112s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022679s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:20:09+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011166s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020475s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:20:11+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011277s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020625s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:20:12+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001502s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023504s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000687s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:20:31+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001143s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019986s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000890s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:21:05+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001209s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023521s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:21:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001648s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.026253s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:23:30+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001431s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.020187s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000837s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:23:37+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002505s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.029218s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000606s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:24:26+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001419s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.037305s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:26:23+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001543s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.031327s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000673s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:26:44+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001290s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.033001s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:27:20+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001897s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.026135s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000705s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:27:46+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002208s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.024403s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000727s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:28:21+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001539s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021358s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:29:36+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011565s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023225s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:29:56+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011722s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022935s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:33:17+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001743s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.021158s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000701s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:34:09+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011706s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022081s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000587s ]
+---------------------------------------------------------------
+[ 2019-12-12T19:35:56+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011561s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019665s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000507s ]

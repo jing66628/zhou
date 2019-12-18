@@ -1,0 +1,110 @@
+{include file='layout/header2'}
+
+
+<!--------------------------- 版心 -->
+<div class="headerbgd"></div>
+<div class="personal center">
+    <div class="top_img"></div>
+    <div class="personal_nav center">
+        <p class="personal_navheader">
+            <a href="{:url('Index/index')}" class="personal_color">首页</a> &nbsp;> &nbsp;
+            <a href="#" class="personal_color" style="color: #000;">个人中心</a></p>
+        <div class="personal_login">
+            <p>欢迎您&nbsp;<span></span>&nbsp;<a href="javascript:;" style="color: red;">{$Think.session.user_name}</a>&nbsp;
+                <a href="{:url('Order/bookList')}" class="personal_color">个人中心</a>&nbsp;
+                <a href="{:url('User/logout')}" class="personal_color">退出</a>&nbsp;|
+                <a href="{:url('User/login')}" class="personal_color">登录</a>
+            </p>
+        </div>
+    </div>
+    <div class="ddcx center">
+        <h2>欢迎您~&nbsp;&nbsp;{$Think.session.user_name}</h2>
+        <p>个人订单查看</p>
+        <table>
+            <tr>
+                <td style="width: 40px;">序号</td>
+                <td style="width: 155px;">门票种类</td>
+                <td style="width: 140px;">订单编号</td>
+                <td style="width: 90px;">游玩日期</td>
+                <td style="width: 80px;">预定人姓名</td>
+                <td style="width: 100px;">预定人手机</td>
+                <td style="width: 160px;">预定人身份证</td>
+                <td style="width: 40px;">数量</td>
+                <td style="width: 188px;">备注</td>
+                <td style="width: 80px;">下单时间</td>
+                <td style="width: 50px;">总价</td>
+                <td>操作</td>
+            </tr>
+            {foreach $data as $k=>$v}
+            <tr>
+                <td>{$k+1}</td>
+                <td>{$v.product_name}</td>
+                <td>{$v.order_id}</td>
+                <td>{$v.paly_date}</td>
+                <td>{$v.user_name}</td>
+                <td>{$v.user_phone}</td>
+                <td>{$v.user_iacard}</td>
+                <td>{$v.tickets_num}</td>
+                <td>{$v.user_note}</td>
+                <td>{$v.create_time}</td>
+                <td>{$v.tickets_total}元</td>
+                <td>
+                    <a href="{:url('bookedit',['id'=>$v.id])}" title="修改订单"><img src="__STATIC__/index/static/images/edit.png" alt="修改订单"></a>&nbsp;&nbsp;
+                    <a href="javascript:;" title="删除订单" onclick="order_del(this,{$v.id})"><img src="__STATIC__/index/static/images/delete.png" alt="删除订单"></a>
+                </td>
+            </tr>
+            {/foreach}
+        </table>
+    </div>
+</div>
+
+<!--------------------------- 版心 -->
+
+{include file='layout/footer'}
+
+<script src="__STATIC__/index/static/js/jquery-1.8.3.min.js"></script>
+<script src="__STATIC__/index/static/lib/layer-v3.1.1/layer/layer.js"></script>
+<script type="text/javascript">
+    //订单删除
+    function order_del(obj, id) {
+
+        //layer插件，弹出一个确认框
+        layer.confirm('确定要取消订单吗？', function(index) {
+
+            //用ajax进行数据删除
+            $.ajax({
+                type: 'post', //提交方式
+                url: "{:url('bookdel')}", //提交地址
+                data: {
+                    'id': id
+                }, //提交数据id
+                //以json格式写的数据
+                dataType: 'json', //告诉后端传输什么格式的数据
+
+                //后端给我返回的数据
+                success: function(res) {
+                    //判断返回的数据，若等于1，则删除成功
+                    if (res.status == 1) {
+
+                        //obj是a标签，把a标签上的所有父元素tr标签删掉（即当前行）
+                        $(obj).parents("tr").remove();
+                        //借用layer插件，紧紧是弹一个提示框
+                        layer.msg(res.msg, {
+                            icon: 6,
+                            time: 1000
+                        });
+                    } else {
+                        //借用layer插件，紧紧是弹一个提示框
+                        layer.msg(res.msg, {
+                            icon: 5,
+                            time: 1000
+                        });
+                    }
+                }
+            })
+        });
+    }
+</script>
+</body>
+
+</html>

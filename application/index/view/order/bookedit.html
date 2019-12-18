@@ -1,0 +1,110 @@
+{include file='layout/header2'}
+
+
+<!--------------------------- 版心 -->
+
+<div class="personal center">
+    <div class="top_img"></div>
+    <div class="personal_nav center">
+        <p class="personal_navheader">
+            <a href="{:url('Index/index')}" class="personal_color">首页</a> &nbsp;> &nbsp;
+            <a href="{:url('Order/booklist')}" class="personal_color" style="color: #000;">个人中心</a>&nbsp;> &nbsp;
+            <a href="#" class="personal_color">修改订单</a>
+        </p>
+        <div class="personal_login">
+            <p>欢迎您&nbsp;<span></span>&nbsp;<a href="javascript:;" style="color: red;">{$Think.session.user_name}</a>&nbsp;
+                <a href="{:url('Order/bookList')}" class="personal_color">个人中心</a>&nbsp;
+                <a href="{:url('User/logout')}" class="personal_color">退出</a>&nbsp;|
+                <a href="{:url('User/login')}" class="personal_color">登录</a>
+            </p>
+        </div>
+    </div>
+    <div class="ddcx center">
+        <h2>欢迎您~&nbsp;&nbsp;{$Think.session.user_name}</h2>
+        <p>订单修改</p>
+        <table>
+            <tr>
+                <td style="width: 50px;">序号</td>
+                <td style="width: 155px;">订单编号</td>
+                <td style="width: 105px;">游玩日期</td>
+                <td style="width: 100px;">预定人姓名</td>
+                <td style="width: 120px;">预定人手机</td>
+                <td style="width: 180px;">预定人身份证</td>
+                <td style="width: 50px;">数量</td>
+                <td style="width: 250px;">备注</td>
+                <td style="width: 75px;">总价</td>
+                <td>操作</td>
+            </tr>
+            <form action="{:url('Order/bookedit')}" id="edit" method="post">
+                {foreach $data as $k=>$v}
+                <tr>
+                    <td>{$k+1}<input type="hidden" name="id" value="{$v.id}"></td>
+                    <td>{$v.order_id}</td>
+                    <td><input type="text" value="{$v.paly_date}" id="time" name="paly_date"></td>
+                    <td><input type="text" value="{$v.user_name}" id="name" name="user_name"></td>
+                    <td><input type="text" value="{$v.user_phone}" id="phone" name="user_phone"></td>
+                    <td><input type="text" value="{$v.user_iacard}" id="idcard" name="user_iacard"></td>
+                    <td>{$v.tickets_num}</td>
+                    <td><input type="text" value="{$v.user_note}" id="note" name="user_note"></td>
+                    <td>{$v.tickets_total}</td>
+                    <td>
+                        <a href="javascript:bookedit();" title="修改">确定修改</a>
+
+                    </td>
+                </tr>
+                {/foreach}
+            </form>
+        </table>
+    </div>
+</div>
+
+<!--------------------------- 版心 -->
+{include file='layout/footer'}
+
+<script>
+    function bookedit() {
+        var time = document.getElementById("time").value; //获取输入的日期
+        var name = document.getElementById("name").value; //获取输入的订票人姓名
+        var phone = document.getElementById("phone").value; //获取输入的订票人手机
+        var idcard = document.getElementById("idcard").value; //获取输入的订票人身份证号
+        var note = document.getElementById("note").value; //获取输入的备注信息
+
+        var namereg = /^[\u4E00-\u9FA5]{2,4}$/; //姓名正则
+        var phonereg = /^[1][0-9]{10}$/; //手机正则
+        var idcardreg = /^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$/; //身份证正则
+
+        if (time === null || time === "" || time === undefined) {
+            alert("请输入游玩日期!");
+            return;
+        }
+
+        if (name === null || name === "" || name === undefined) {
+            alert("请输入订票人姓名!");
+            return;
+        } else if (!namereg.test(name)) {
+            alert("请输入正确的订票人姓名!");
+            return;
+        }
+
+        if (phone === null || phone === "" || phone === undefined) {
+            alert("请输入订票人手机!");
+            return;
+        } else if (!phonereg.test(phone)) {
+            alert("请输入正确的订票人手机!");
+            return;
+        }
+
+        if (idcard === null || idcard === "" || idcard === undefined) {
+            alert("请输入订票人身份证号!");
+            return;
+        } else if (!idcardreg.test(idcard)) {
+            alert("请输入正确的订票人身份证号!");
+            return;
+        }
+
+        edit.submit(); //执行提交命令
+    };
+</script>
+</body>
+
+</html>

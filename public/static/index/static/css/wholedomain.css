@@ -1,0 +1,62 @@
+/*全域旅游样式代码*/
+
+.nav_Globalbgimg {
+    background-image: url(../images/general/Global_bg.jpg);
+    height: 600px;
+    width: 100%;
+    min-width: 1200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_Global {
+    background: #eef6f8;
+    padding: 1px 0;
+    min-width: 75pc;
+}
+
+.Global_box {
+    width: 75pc;
+    margin: 0 auto;
+}
+
+.Global_h1 {
+    background: url(../images/general/Global23.png) no-repeat left bottom;
+    text-align: left;
+    border-bottom: 1px solid #C2CBCD;
+    font-weight: normal;
+    padding-top: 40px;
+    height: 94px;
+    font-size: 30px;
+    color: #555;
+    line-height: 110px;
+    margin-bottom: 20px;
+}
+
+.Global_mainbox {
+    color: #555;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    padding-bottom: 50px;
+}
+
+.Global_mainbox p {
+    margin-bottom: 15px;
+    text-indent: 34px;
+}
+
+.Global_mainbox h3 {
+    color: rgb(32, 29, 29);
+}
+
+.Global_mainbox img {
+    display: inline-block !important;
+}
+
+.Global_moreDetails:hover {
+    color: rgb(136, 189, 101);
+}
+
+
+/*全域旅游样式代码结束*/

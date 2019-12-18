@@ -1,0 +1,210 @@
+---------------------------------------------------------------
+[ 2019-12-09T14:08:29+08:00 ] 127.0.0.1 POST zhouzhuang.com/admin/login/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029190s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin` [ RunTime:0.081545s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin` WHERE  `admin_name` = 'admin'  AND `status` = '1' LIMIT 1 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] UPDATE `zz_admin`  SET `login_time`=1575871709,`login_ip`='127.0.0.1'  WHERE  `admin_name` = 'admin' [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:08:31+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/user/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011450s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.061706s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.052877s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:30:36+08:00 ] 127.0.0.1 POST zhouzhuang.com/admin/login/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002316s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin` [ RunTime:0.027429s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_admin` WHERE  `admin_name` = 'admin'  AND `status` = '1' LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] UPDATE `zz_admin`  SET `login_time`=1575873036,`login_ip`='127.0.0.1'  WHERE  `admin_name` = 'admin' [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:30:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/user/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011837s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.026183s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:30:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/user/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011302s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.011998s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:30:41+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/article/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001690s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.123289s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:31:41+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011277s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022113s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000587s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-09T14:32:03+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001550s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.022506s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:34:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/article/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011567s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000776s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:48:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/product/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002172s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:2.274609s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000969s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:51:26+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/product/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012279s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000791s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:51:30+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/product/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011136s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.022534s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2019-12-09T14:52:16+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/product/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011442s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.001054s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:06:15+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/order/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001980s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_order` [ RunTime:1.833455s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_order` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000652s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:06:35+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/user/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012684s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.023307s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000935s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:06:55+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011649s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.023669s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000598s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:08:42+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011755s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.024133s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:43:47+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/admin/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002362s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin` [ RunTime:0.022926s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 1 [ RunTime:2.248892s ]
+[ sql ] [ SQL ] SELECT a.*,(b.role_name) role_names FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 0,15 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.001050s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:43:48+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/admin/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012273s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_role` [ RunTime:0.026929s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_role` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000728s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:45:00+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/role/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011533s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_role` [ RunTime:0.025813s ]
+[ sql ] [ SQL ] SELECT a.*,group_concat(c.auth_name) auth_names FROM `zz_role` `a` LEFT JOIN `zz_role_auth` `b` ON `a`.`id`=`b`.`role_id` LEFT JOIN `zz_auth` `c` ON `b`.`auth_id`=`c`.`id` GROUP BY `a`.`id` [ RunTime:1.442645s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:45:03+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/role/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001828s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_auth` [ RunTime:0.024851s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_auth` ORDER BY `ids_path` ASC [ RunTime:0.000873s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000852s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:45:15+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/role/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010750s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_role` [ RunTime:0.022351s ]
+[ sql ] [ SQL ] SELECT a.*,group_concat(c.auth_name) auth_names FROM `zz_role` `a` LEFT JOIN `zz_role_auth` `b` ON `a`.`id`=`b`.`role_id` LEFT JOIN `zz_auth` `c` ON `b`.`auth_id`=`c`.`id` GROUP BY `a`.`id` [ RunTime:0.001568s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:45:29+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/role/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010500s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_auth` [ RunTime:0.023710s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_auth` ORDER BY `ids_path` ASC [ RunTime:0.001792s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000816s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:45:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/role/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012375s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_role` [ RunTime:0.026916s ]
+[ sql ] [ SQL ] SELECT a.*,group_concat(c.auth_name) auth_names FROM `zz_role` `a` LEFT JOIN `zz_role_auth` `b` ON `a`.`id`=`b`.`role_id` LEFT JOIN `zz_auth` `c` ON `b`.`auth_id`=`c`.`id` GROUP BY `a`.`id` [ RunTime:0.001596s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000714s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:46:51+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/auth/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011929s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_auth` [ RunTime:0.031911s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_auth` LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_auth` ORDER BY `ids_path` ASC LIMIT 0,15 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.001013s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:46:52+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/auth/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010958s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_auth` [ RunTime:0.027471s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_auth` ORDER BY `ids_path` ASC [ RunTime:0.001059s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000711s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:51:02+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/auth/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002288s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_auth` [ RunTime:0.025235s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_auth` LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_auth` ORDER BY `ids_path` ASC LIMIT 0,15 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000966s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:59:30+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/admin/lst.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001680s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_admin` [ RunTime:0.022826s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT a.*,(b.role_name) role_names FROM `zz_admin` `a` LEFT JOIN `zz_role` `b` ON `a`.`admin_roleid`=`b`.`id` LIMIT 0,15 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000773s ]
+---------------------------------------------------------------
+[ 2019-12-09T15:59:31+08:00 ] 127.0.0.1 GET zhouzhuang.com/admin/admin/add.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010671s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_role` [ RunTime:0.022456s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_role` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] select * from zz_auth [ RunTime:0.000774s ]
+---------------------------------------------------------------
+[ 2019-12-09T16:00:30+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011732s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027137s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000615s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-09T20:10:26+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062076s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.155339s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000979s ]
+---------------------------------------------------------------
+[ 2019-12-09T20:10:30+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001409s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.095483s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2019-12-09T20:12:27+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011953s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019895s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[ 2019-12-09T20:12:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001310s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.018731s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2019-12-09T20:22:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001475s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.027673s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2019-12-09T20:22:41+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011999s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020088s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000769s ]
+---------------------------------------------------------------
+[ 2019-12-09T20:44:55+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001686s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.019543s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000613s ]

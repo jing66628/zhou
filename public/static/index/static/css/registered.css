@@ -1,0 +1,85 @@
+    .headerbgd {
+        width: 75pc;
+        height: 66px;
+        opacity: 0;
+    }
+    
+    .zhuce_form {
+        height: 850px;
+        width: 600px;
+        margin: 50px auto;
+    }
+    
+    .zhuce_form p:nth-child(2) {
+        font-size: 32px;
+        line-height: 60px;
+        border-bottom: 1px solid #000;
+    }
+    
+    .zhuce_form p:nth-child(3) {
+        text-align: right;
+        font-size: 20px;
+        line-height: 60px;
+    }
+    
+    .zhuce_form p:nth-child(3) a {
+        color: blue;
+    }
+    
+    .zhuce_form p:nth-child(4),
+    .zhuce_form p:nth-child(5),
+    .zhuce_form p:nth-child(6),
+    .zhuce_form p:nth-child(7) {
+        font-size: 22px;
+        line-height: 55px;
+        font-weight: 500;
+    }
+    
+    .zhuce_form p:nth-child(4) input,
+    .zhuce_form p:nth-child(5) input,
+    .zhuce_form p:nth-child(6) input,
+    .zhuce_form p:nth-child(7) input {
+        height: 45px;
+        font-size: 22px;
+        width: 100%;
+    }
+    
+    .zhuce_form p:nth-child(8) {
+        font-size: 22px;
+        line-height: 55px;
+        font-weight: 500;
+    }
+    
+    .zhuce_form p:nth-child(8) input {
+        height: 45px;
+        font-size: 22px;
+        width: 40%;
+    }
+    
+    .zhuce_form p:nth-child(8)>a {
+        display: inline-block;
+        text-align: center;
+        line-height: 49px;
+        margin-left: 20px;
+        height: 49px;
+        width: 180px;
+        color: #000;
+        border-radius: 5px;
+        background: rgb(226, 222, 222);
+    }
+    
+    .zhuce_form div {
+        margin: 60px auto;
+        height: 60px;
+        width: 180px;
+        background: rgb(226, 222, 222);
+        border-radius: 60px;
+        line-height: 60px;
+        font-size: 24px;
+        text-align: center;
+        line-height: 60px;
+    }
+    
+    .zhuce_form div a {
+        color: #000;
+    }

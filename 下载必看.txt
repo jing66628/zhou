@@ -1,0 +1,5 @@
+下载解压后将项目文件名改成zhouzhuang，放到站点根目录
+配置 zhouzhuang.com 本地域名
+把zhou_data.sql 导到zhou的数据库中
+后台入口：zhouzhuang.com/admin/login/login
+超级管理员 admin  admin

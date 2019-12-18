@@ -1,0 +1,80 @@
+﻿{include file='layout/header'}
+<article class="cl pd-20">
+    <form action="{:url('Role/edit')}" method="post" class="form form-horizontal" id="form-admin-role-add">
+        <input type="hidden" name="id" value="{$data.id}">
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>角色名称：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="{$data.role_name}" placeholder="" id="role_name" name="role_name">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>权限：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                {foreach $auth_data as $k=>$v}
+                <!--substr_count 取字符串在另一个字符串中出现的个数-->
+                <?php echo str_repeat('------',substr_count($v['ids_path'],','));?>
+                <input level="{$v.ids_path|substr_count=###,','}" type="checkbox" value="{$v.id}" name="auth_ids[]" {if strpos( ','.$data.auth_ids. ',', ','.$v.id. ',') !==false }checked{/if} class="valid"> {$v.auth_name}<br/> {/foreach}
+            </div>
+        </div>
+
+        <div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <button type="submit" class="btn btn-success radius" id="admin-role-save" name="admin-role-save"><i class="icon-ok"></i> 确定</button>
+            </div>
+        </div>
+    </form>
+</article>
+
+<!--_footer 作为公共模版分离出去-->
+{include file='layout/footer'}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/admin/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+    $("input:checkbox").click(function() {
+        //获取当前点击的选择框level值
+        var current_level = $(this).attr('level');
+        //当点击选中的时候
+        if ($(this).prop('checked')) {
+            var temp_level = current_level;
+            //获取当前的所有前面的同级的input选择框
+            var prev_all = $(this).prevAll("input:checkbox");
+            //循环为上一级加上选择
+            $(prev_all).each(function(r, v) {
+                if ($(v).attr('level') < temp_level) {
+                    $(v).prop('checked', true);
+                    temp_level--;
+                }
+            });
+            var next_all = $(this).nextAll('input:checkbox');
+            $(next_all).each(function(r, v) {
+                //循环判断当前选中的下级
+                if ($(v).attr('level') > current_level) {
+                    $(v).prop('checked', true);
+                } else {
+                    //若不是下级了，直接停止循环
+                    return false;
+                }
+            })
+        } else {
+            //获取当前的所有后面的同级的input框
+            var next_all = $(this).nextAll('input:checkbox');
+            $(next_all).each(function(r, v) {
+                //循环判断当前选中的下级
+                if ($(v).attr('level') > current_level) {
+                    $(v).prop('checked', false);
+                } else {
+                    //若不是下级了，直接停止循环
+                    return false;
+                }
+            })
+        }
+    });
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+
+</html>

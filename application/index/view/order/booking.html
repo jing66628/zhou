@@ -1,0 +1,193 @@
+ {include file='layout/header2'}
+
+
+
+<!--------------------------- 版心 -->
+<div class="headerbgd"></div>
+<div class="main">
+    <div class="booking_nav">
+        <div class="booking_navheader center">
+            <p>
+                <a href="{:url('Index/index')}" class="booking_color">首页</a> &nbsp;> &nbsp;
+                <a href="{:url('Navigation/tickets')}" class="booking_color">票务政策</a> &nbsp;> &nbsp;
+                <a href="" class="booking_color" style="color: #000;">确认订单</a>
+            </p>
+            <div class="booking_login">
+                <p>欢迎您&nbsp;<span></span>&nbsp;<a href="javascript:;" style="color: red;">{$Think.session.user_name}</a>&nbsp;
+                    <a href="{:url('Order/bookList')}" class="tickets_color">个人中心</a>&nbsp;
+                    <a href="{:url('User/logout')}" class="booking_color">退出</a>&nbsp;|
+                    <a href="{:url('User/login')}" class="tickets_color">登录</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="booking_xx center">
+        <table></table>
+        <div class="booking_dplc center">
+            <div class="booking_qrdd ">
+                <p class="qrdd_p">确认订单信息</p>
+            </div>
+
+        </div>
+        <div class="booking_dd center" id="price">
+            <form id="AddProductPicture" action="{:url('booking')}" method="post">
+                {foreach $data as $k=>$v}
+                <div class="booking_ticket ticket_center">
+                    <table></table>
+                    <div class="ticket_img">
+                        <img src="{$v.product_url}" width="130px">
+                        <p class="ticketpone"><input type="hidden" name="product_name" value="{$v.product_name}">{$v.product_name}</p>
+                        <p class="ticketptwo">游玩日期&nbsp;&nbsp;<input type="text" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',minDate:new Date()})" id="time" name="paly_date" autocomplete="off">
+                        </p>
+                        <span></span>
+                    </div>
+                    <div class="ticket_number">
+                        <p>数量</p>
+                        <ul class="number_ipt">
+                            <li @click="Reduction">
+                                <span></span>
+                            </li>
+                            <li><input type="text" :value="number" readonly="readonly" id="number" name="tickets_num" v-cloak></li>
+                            <li @click="add">
+                                <span></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ticket_amount">
+                        <p>单价:&nbsp;&nbsp;<span>￥</span>&nbsp;<span v-cloak><input type="hidden"id="unitprice" name="tickets_unit" :value="{$v.product_price}">{$v.product_price}</span></p>
+                    </div>
+                </div>
+                <div class="ticket_information ticket_center">
+                    <p>预订人信息</p>
+                    <p>预订人姓名<input type="text" id="name" name="user_name" autocomplete="off">&nbsp;<span>*</span></p>
+                    <p>预订人手机<input type="text" id="phone" name="user_phone" autocomplete="off">&nbsp;<span>*</span></p>
+                    <p>身份证号码<input type="text" id="idcard" name="user_iacard" autocomplete="off">&nbsp;<span>*</span></p>
+                    <p>备注</p>
+                    <textarea id="note" name="user_note" placeholder="选填 将您的其他需求备注在此，我们会尽力为您提供最优质的服务，但请勿输入特殊字符哦"></textarea>
+                </div>
+                <div class="ticket_prompt ticket_center">
+                    <p>温馨提示：</p>
+                    <p>1、门票当日一次有效，不能重复使用；</p>
+                    <p>2、如您有相关优惠证件请现场凭证购买（具体请查看门票预订须知）；</p>
+                    <p>3、游玩当天凭预订成功短信中的二维码或二代身份证至周庄景区游客服务中心检票口扫码检票入园；</p>
+                    <p>4、若您为周庄旅游股份有限公司旗下酒店入住客人，建议在入住当天至景区指定前台购买景区联票（入住期间二日内一次有效）；</p>
+                    <p>5、退改规则：如需退票，请于游玩当天22:00前通过官网提交申请, 逾期不接受退票。</p>
+                </div>
+                <div class="ticket_settlement ticket_center">
+                    <div class="copewith">
+                        <p>应付总额：<span>￥</span>&nbsp;<span v-cloak><input type="hidden" id="totalprice" name="tickets_total" :value="{$v.product_price}*number">{{{$v.product_price}*number}}</span></p>
+                    </div>
+                </div>
+                <div class="ticket_tjbnt ticket_center">
+                    <div>
+                        <a href="javascript:validation();">提交订单</a>
+                    </div>
+                </div>
+                {/foreach}
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</div>
+<!--------------------------- 尾部 -->
+
+{include file='layout/footer'}
+
+
+<script src="__STATIC__/index/static/js/vue.js"></script>
+<script src="__STATIC__/admin/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script src="__STATIC__/index/static/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script>
+    new Vue({
+        el: "#price",
+        data: {
+            number: 1,
+        },
+        methods: {
+            Reduction: function() { //数量减号的处理事件
+                if (this.number > 1) {
+                    this.number--;
+                }
+            },
+            add: function() { //数量加号的处理事件
+                this.number++;
+            },
+        }
+    });
+
+    $(function() {
+
+        $("#AddProductPicture").validate({
+            rules: {
+                user_name: {
+                    required: true,
+                    isName: true,
+                },
+                user_phone: {
+                    required: true,
+                    isPhone: true,
+                },
+                user_iacard: {
+                    required: true,
+                    isIdCardNo: true,
+                },
+            },
+            onkeyup: false,
+            focusCleanup: true,
+        });
+    });
+
+    function validation() {
+        var time = document.getElementById("time").value; //获取输入的日期
+        var number = document.getElementById("number").value; //获取输入的数量
+        var unitprice = document.getElementById("unitprice").value; //获取单价
+        var name = document.getElementById("name").value; //获取输入的订票人姓名
+        var phone = document.getElementById("phone").value; //获取输入的订票人手机
+        var idcard = document.getElementById("idcard").value; //获取输入的订票人身份证号
+        var note = document.getElementById("note").value; //获取输入的备注信息
+        var totalprice = document.getElementById("totalprice").value; //获取订单应付总额
+
+        var namereg = /^[\u4E00-\u9FA5]{2,4}$/; //姓名正则
+        var phonereg = /^[1][0-9]{10}$/; //手机正则
+        var idcardreg = /^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$/; //身份证正则
+
+        if (time === null || time === "" || time === undefined) {
+            alert("请输入游玩日期!");
+            return;
+        }
+
+        if (name === null || name === "" || name === undefined) {
+            alert("请输入订票人姓名!");
+            return;
+        } else if (!namereg.test(name)) {
+            alert("请输入正确的订票人姓名!");
+            return;
+        }
+
+        if (phone === null || phone === "" || phone === undefined) {
+            alert("请输入订票人手机!");
+            return;
+        } else if (!phonereg.test(phone)) {
+            alert("请输入正确的订票人手机!");
+            return;
+        }
+
+        if (idcard === null || idcard === "" || idcard === undefined) {
+            alert("请输入订票人身份证号!");
+            return;
+        } else if (!idcardreg.test(idcard)) {
+            alert("请输入正确的订票人身份证号!");
+            return;
+        }
+
+        AddProductPicture.submit(); //执行提交命令
+    };
+</script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+ {include file='layout/header2'}
+
+<!--------------------------- 版心 -->
+<div class="main">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="__STATIC__/index/static/images/user/login_banner1.jpg" alt="...">
+
+            </div>
+            <div class="item">
+                <img src="__STATIC__/index/static/images/user/login_banner2.jpg" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="login_form">
+        <form action="{:url('login')}" method="post" id="loginform">
+            <table></table>
+            <p>登录</p>
+            <p>请您输入您的用户名和密码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{:url('User/registered')}">未注册？</a></p>
+            <p><span></span><input type="text" name="user_name" id="name"></p>
+            <p><span></span><input type="password" name="user_password" id="password"></p>
+            <p><span class="ioocyzm"></span><input type="text" name="ca_code" id="yanzhengma"><img id="changeCa" src="{:url('getCaptcha')}" alt="换一张" style="margin-left: 10px;" /></p>
+            <p><a href="">忘记密码？</a> </p>
+            <div>
+                <a href="javascript:login();">安全登录</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+</div>
+<!--------------------------- 尾部 -->
+
+{include file='layout/footer'}
+
+<script src="__STATIC__/index/static/js/jquery.js"></script>
+<script src="__STATIC__/index/static/lib/bootstrap.js"></script>
+<script>
+    function login() {
+        var name = document.getElementById("name").value;
+        var password = document.getElementById("password").value;
+        var yanzhengma = document.getElementById("yanzhengma").value;
+        if (name === null || name === "" || name === undefined) {
+            alert("请输入用户名！");
+            return;
+        }
+
+        if (password === null || password === "" || password === undefined) {
+            alert("请输入密码！");
+            return;
+        }
+
+        if (yanzhengma === null || yanzhengma === "" || yanzhengma === undefined) {
+            alert("请输入验证码！");
+            return
+        }
+
+        loginform.submit();
+    }
+
+    //点击刷新验证码
+    var changeCa = document.getElementById("changeCa");
+    changeCa.onclick = function() {
+        this.src = this.src + '?' + Math.random();
+    }
+</script>
+
+</body>
+
+</html>

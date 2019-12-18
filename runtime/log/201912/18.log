@@ -1,0 +1,306 @@
+---------------------------------------------------------------
+[ 2019-12-18T13:08:02+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068041s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.136822s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000839s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:08:03+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001481s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.077073s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:08:14+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011694s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.111065s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:08:14+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011063s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.014851s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000550s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:08:16+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011191s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020258s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:08:41+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011151s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019536s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:09:44+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011158s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019238s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000587s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:10:02+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011675s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.021246s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000525s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:10:02+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011016s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.017466s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000935s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:10:04+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010721s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019609s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000739s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:10:50+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012374s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.025482s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000640s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:11:20+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010863s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.018838s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:12:05+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010700s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.021493s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:12:45+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011647s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019194s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:13:32+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011004s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020668s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000698s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:13:33+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011351s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019077s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:13:33+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001432s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.012085s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:16:38+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/3.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011332s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019167s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 3 [ RunTime:0.000637s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:16:45+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011922s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019859s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000744s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:16:47+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011593s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019621s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000571s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:17:11+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011444s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.020686s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:17:11+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011137s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.017463s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:17:14+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010873s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020545s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:17:31+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010914s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019299s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:18:06+08:00 ] 127.0.0.1 GET zhouzhuang.com/index.php
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011462s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.035720s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000563s ]
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-12-18T13:18:25+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010988s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.028159s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:20:57+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012335s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.022597s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:21:52+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011110s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.021873s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000768s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:22:06+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011113s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019141s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:22:32+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011363s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.019587s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000720s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:22:33+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011935s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.022947s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000643s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:22:35+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010864s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.018960s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:23:44+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012711s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020320s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:24:42+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001799s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020519s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:25:32+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010851s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020191s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000562s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:25:32+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011837s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.011066s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000656s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:25:33+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012554s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.026221s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:26:05+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011413s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019497s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000703s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:26:06+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011340s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019595s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:26:08+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011395s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.018932s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:26:37+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011046s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020612s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:28:19+08:00 ] 127.0.0.1 GET zhouzhuang.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001474s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_article` [ RunTime:0.023541s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_article` WHERE  `status` = '1' [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:28:21+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011935s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.023459s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:28:28+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012301s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.021590s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:28:29+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001355s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019737s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:28:39+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011896s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.026436s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000582s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:28:39+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001799s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.015818s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:28:40+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010496s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019309s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:29:47+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011434s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019039s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000587s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:30:11+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012166s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020587s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000506s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:31:37+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011323s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.021317s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:32:02+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012312s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.025727s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000726s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:32:35+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011383s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.023101s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:32:44+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011338s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019178s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:32:58+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011256s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.022632s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:32:58+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011299s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.011842s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:33:30+08:00 ] 127.0.0.1 POST zhouzhuang.com/index/user/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011812s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_user` [ RunTime:0.024903s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_user` WHERE  `user_name` = 'admin' LIMIT 1 [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:33:30+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/navigation/tickets.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011817s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.015511s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `status` = '1' [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:33:32+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011571s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019119s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:33:57+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011305s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.019624s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000495s ]
+---------------------------------------------------------------
+[ 2019-12-18T13:34:52+08:00 ] 127.0.0.1 GET zhouzhuang.com/index/order/booking/id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012470s ] mysql:host=127.0.0.1;dbname=zhou;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zz_product` [ RunTime:0.020044s ]
+[ sql ] [ SQL ] SELECT * FROM `zz_product` WHERE  `id` = 2 [ RunTime:0.000439s ]

@@ -1,0 +1,81 @@
+/************住宿背景******************/
+
+.ceremony_bg {
+    width: 100%;
+    height: 600px;
+    background: url(../images/ceremony/ceremony.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+/**********中间模块 *********************/
+
+.mi_nav {
+    width: 100%;
+    background: #eef6f8;
+}
+
+.strip {
+    width: 75pc;
+    margin: 0 auto;
+    padding-top: 17px;
+    position: relative;
+}
+
+.strip>img {
+    margin: 0 auto;
+}
+
+.mi_nav_centent {
+    width: 75pc;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.mi_nav_centent:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.mi_nav_centent>li {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.mi_nav_word {
+    width: 610px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -315px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.mi_nav_word>h2 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: -8px;
+}
+
+.tint {
+    background: rgba(206, 134, 38, .82);
+}
+
+.tint_2 {
+    background: rgba(131, 92, 60, .82);
+}
+
+.tint_3 {
+    background: rgba(92, 81, 102, .82);
+}
+
+
+/*                       footer */

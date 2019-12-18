@@ -1,0 +1,303 @@
+/*娱乐界面样式代码*/
+
+.nav_generalbgimg {
+    background-image: url(../images/entertainment/entertainment_bg.jpg);
+    height: 600px;
+    width: 100%;
+    min-width: 1200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.entertainment_main {
+    background: #EEF6F8;
+    padding: 1px 0;
+    min-width: 75pc;
+}
+
+.performance_box {
+    position: relative;
+    margin: 50px auto;
+    width: 75pc;
+    zoom: 1;
+}
+
+.performance_mainbox .performance_box img {
+    padding: 0;
+    border: none;
+    display: block;
+    max-width: 100%;
+}
+
+.performance_textbox {
+    position: absolute;
+    width: 1200px;
+    padding: 20px 0;
+    height: 260px;
+    left: 0px;
+    bottom: 60px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, .32);
+}
+
+.performance_textbox h2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    font-size: 40px;
+    font-family: "宋体";
+    display: inline-block;
+}
+
+.textbox1_p1 {
+    margin: 15px auto;
+    width: 60%;
+}
+
+.textbox1_p2 a {
+    color: #fff;
+}
+
+.BarCoffeeTea_box {
+    position: relative;
+    margin: 50px auto;
+    width: 75pc;
+    zoom: 1;
+}
+
+.BarCoffeeTea_textbox {
+    position: absolute;
+    width: 1200px;
+    padding: 20px 0;
+    height: 260px;
+    left: 0px;
+    bottom: 60px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(207, 92, 25, .52);
+}
+
+.BarCoffeeTea_textbox h2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    font-size: 40px;
+    font-family: "宋体";
+    display: inline-block;
+}
+
+
+/* 酒吧更多 */
+
+.bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    z-index: 9999;
+    display: none;
+}
+
+.bar_centent {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 600px;
+    background: #eef6f8;
+    margin-left: -500px;
+    margin-top: -300px;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.bar_wrap {
+    padding: 0;
+    list-style: none;
+    width: 980px;
+    height: 600px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.bar_wrap>li {
+    text-align: center;
+    padding: 30px 50px 20px 50px;
+    border-bottom: 1px solid #e6e9e1;
+}
+
+.bar_wrap>li>h3 {
+    font-size: 40px;
+    line-height: 90px;
+    font-weight: 300;
+}
+
+.bar_wrap>li>img {
+    width: 700px;
+    height: 400px;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, .4);
+    border-radius: 35px;
+    display: inline-block;
+}
+
+.bar_wrap>li>p {
+    color: #666;
+    font-size: 20px;
+    height: 80px;
+    padding-top: 20px;
+    display: block;
+}
+
+.close {
+    margin-left: 490px;
+    margin-top: -647px;
+}
+
+.mvls_close {
+    margin-left: 571px;
+    margin-top: -328px;
+}
+
+.close,
+.mvls_close {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.close:after,
+.mvls_close::after {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 8px auto;
+    background: url(../images/entertainment/close.png) no-repeat center;
+}
+
+
+/* 精彩表演 */
+
+.performance_wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    display: none;
+}
+
+.performance_main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 71pc;
+    margin-top: -280px;
+    margin-left: -571px;
+    height: 420px;
+    background: #eef6f8;
+    padding: 1px 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.pfmc_box {
+    width: 1135px;
+    height: 420px;
+    overflow: auto;
+}
+
+.fourseasons_box,
+.ancientStage_box,
+.PingTan_box {
+    width: 1100px;
+    height: 440px;
+    border-bottom: 1px solid #6d6e6eb8;
+}
+
+.fourseasons_textbox,
+.PingTan_textbox,
+.ancientStage_textbox {
+    width: 440px;
+    height: 440px;
+}
+
+.fourseasons_box {
+    background: url(../images/entertainment/performance_37.png) no-repeat top 30px right 0px;
+}
+
+.fourseasons_textbox {
+    padding-left: 25px;
+    float: left;
+}
+
+.fourseasons_textbox>h2,
+.ancientStage_textbox>h2,
+.PingTan_textbox>h2 {
+    font-size: 40px;
+    font-family: "宋体";
+    border-bottom: 2px solid #666;
+    display: inline-block;
+    color: #444;
+    margin-top: 100px;
+}
+
+.textbox_p {
+    margin-top: 30px;
+    letter-spacing: 0.1em;
+    line-height: 1.8em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.more_bt {
+    display: inline-block;
+    width: 125px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    background: #88BC65;
+}
+
+.more_bt:hover {
+    background: #679D43;
+}
+
+.ancientStage_box {
+    background: url(../images/entertainment/performance_38.png) no-repeat top 30px left -38px;
+}
+
+.ancientStage_textbox {
+    float: right;
+}
+
+.PingTan_box {
+    background: url(../images/entertainment/performance_39.png) no-repeat top 30px right 0px;
+}
+
+.PingTan_textbox {
+    padding-left: 25px;
+    float: left;
+}
+
+.PingTan_textbox img {
+    float: right;
+    margin-top: -92px;
+    margin-right: 62px;
+    bottom: 0px;
+}

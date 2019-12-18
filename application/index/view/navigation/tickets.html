@@ -1,0 +1,91 @@
+{include file='layout/header2'}
+
+
+<!--------------------------- 版心 -->
+<div class="main">
+    <div class="top_img"></div>
+    <div class="tickets_nav center">
+        <p class="tickets_navheader">
+            <a href="{:url('Index/index')}" class="tickets_color">首页</a> &nbsp;> &nbsp;
+            <a href="#" class="tickets_color" style="color: #000;">票务政策</a></p>
+        <div class="tickets_login">
+            <p>欢迎您&nbsp;<span></span>&nbsp;<a href="javascript:;" style="color: red;">{$Think.session.user_name}</a>&nbsp;
+                <a href="{:url('Order/bookList')}" class="tickets_color">个人中心</a>&nbsp;
+                <a href="{:url('User/logout')}" class="tickets_color">退出</a>&nbsp;|
+                <a href="{:url('User/login')}" class="tickets_color">登录</a>
+            </p>
+        </div>
+    </div>
+    <div class="tickets_img center">
+        <p class="tickets_pwcz">票务政策</p>
+        <p class="tickets_ty">门票</p>
+        <ul class="tickets_jiage">
+            {foreach $data as $k=>$v}
+            <li>
+                <img src="{$v.product_url}" width="350px">
+                <p>{$v.product_name}
+                    <a href="{:url('Order/booking',['id'=>$v.id])}" class="pone"><span>￥&nbsp;{$v.product_price}</span></a>
+                </p>
+            </li>
+            <!-- <li>
+                <img src="__STATIC__/index/static/images/booking/tickets_03.jpg" width="350px">
+                <p>周庄古镇门票<span class="pw">敬请期待</span></p>
+            </li>
+            <li>
+                <img src="__STATIC__/index/static/images/booking/tickets_04.jpg" width="350px">
+                <p>周庄古镇门票<span class="pw">敬请期待</span></p>
+            </li> -->
+            {/foreach}
+        </ul>
+    </div>
+    <div class="tickets_text center">
+        <div class="text_top">
+            <p class="tickets_ty">票务信息</p>
+            <p class="tickets_color">门票一经售出，概不退换，景区门票当日一次使用有效，消码/打孔注销；门票实行一票分检制，进入景区各小景点请主动出示门票</p>
+        </div>
+        <div class="text_left">
+            <p>免票</p>
+            <p>以下游客凭本人有效证件即可进入</p>
+            <p>1、 国家旅游局颁发的国导证（IC卡）、领队证；</p>
+            <p>2、 国务院、中央军委颁发的老干部离休证；</p>
+            <p>3、 残疾证（中国残疾人联合会制发）、残疾军人证（中华人民民政部制发）、伤残人民警察证、 伤残公务员证、伤残国家机关工作人员证、因战因公伤残人员证、 伤残民兵民工证；</p>
+            <p>注：以上证件为中华人民共和国民政部制有效</p>
+            <p>4、 随旅行社团队驾驶员A/A1证，一台车1位；</p>
+            <p>5、 1.2米以下儿童或6周岁以下儿童凭有效证件；</p>
+            <p>凭本人以下有效证件至西栅游客服务中心咨询处或东栅游客服务中心导游部办理相关手续进入：</p>
+            <p>中央新闻总署颁发的最新版本新闻记者证；</p>
+            <p>国家旅游局所颁发的旅行社经理资格证（附本人名片）；</p>
+        </div>
+        <div class="text_right">
+            <div>
+                <p>优待半价票</p>
+                <p>请于购票前出示本人以下有效证件</p>
+                <p>1、老年人优待证或60周岁以上身份证；</p>
+                <p>2、现役军人证、士官退休证、三属（烈士遗属、因公牺牲军人遗属和病故军人遗属）优待证。</p>
+            </div>
+            <div>
+                <p>儿童半价票</p>
+                <p>6周岁（含6周岁）以下或者身高1.4米（含1.4米）以下的儿童。</p>
+            </div>
+            <div>
+                <p style="line-height: 83px;">学生半价票</p>
+                <p>全日制在校大学本科及以下学历学生凭学生证。</p>
+            </div>
+        </div>
+        <div class="tickets_ljyd">
+            <a href="{:url('Order/booking')}">
+                <p>立即预定<span></span></p>
+            </a>
+        </div>
+    </div>
+
+</div>
+<!--------------------------- 尾部 -->
+
+
+{include file='layout/footer'}
+
+
+</body>
+
+</html>

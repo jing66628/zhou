@@ -1,0 +1,58 @@
+/*简介界面样式代码*/
+
+.nav_Introductionbgimg {
+    background-image: url(../images/general/Introduction_bg.jpg);
+    height: 600px;
+    width: 100%;
+    min-width: 1200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_introduction {
+    background: #eef6f8;
+    padding: 1px 0;
+    min-width: 75pc;
+}
+
+.introduction_box {
+    width: 75pc;
+    margin: 0 auto;
+}
+
+.introduction_h1 {
+    text-align: left;
+    background: url(../images/general/introduction_9.png) no-repeat left bottom;
+    border-bottom: 1px solid #C2CBCD;
+    font-weight: normal;
+    padding-top: 40px;
+    height: 94px;
+    font-size: 30px;
+    color: #555;
+    line-height: 110px;
+    margin-bottom: 20px;
+}
+
+.introduction_h1 span {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.main_text {
+    color: #555;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    padding-bottom: 50px;
+}
+
+.main_text p {
+    text-indent: 34px;
+}
+
+.main_text img {
+    display: inline-block !important;
+}
+
+
+/*简介界面样式代码结束*/

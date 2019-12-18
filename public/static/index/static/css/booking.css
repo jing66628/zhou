@@ -1,0 +1,309 @@
+.headerbgd {
+    width: 75pc;
+    height: 66px;
+    opacity: 0;
+}
+
+.main {
+    background: url(../images/booking/booking_bgd.jpg);
+}
+
+.main .booking_nav {
+    height: 50px;
+    background: #fff;
+}
+
+.main .booking_nav .booking_navheader {
+    position: relative;
+    cursor: default;
+    line-height: 50px;
+    color: #000;
+}
+
+.main .booking_nav .booking_navheader .booking_login {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main .booking_color {
+    color: #7e808a;
+    position: relative;
+    z-index: 3;
+}
+
+.main .booking_nav .booking_navheader a::before {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    z-index: 1;
+    content: '';
+    transition: 0.2s;
+    border-bottom: 1px solid #7e808a;
+    background: transparent;
+    transform: translate(0, 0px);
+}
+
+.main .booking_nav .booking_navheader a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.booking_xx .booking_dplc {
+    position: relative;
+    height: 60px;
+    margin-top: 85px;
+}
+
+.booking_xx .booking_qrdd {
+    width: 380px;
+    height: 60px;
+    margin-top: 85px;
+    background: url(../images/booking/booking_qrdd.png);
+}
+
+.booking_xx .qrdd_p {
+    font-size: 22px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.booking_xx .booking_tjdd {
+    position: absolute;
+    top: 0;
+    left: 358px;
+    width: 380px;
+    height: 60px;
+    background: url(../images/booking/booking_tjdd.png);
+}
+
+.booking_dd {
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    background: rgba(239, 238, 239, 0.65);
+}
+
+.booking_dd .ticket_center {
+    width: 1075px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.booking_dd .booking_ticket {
+    border-bottom: 1px dotted #000;
+}
+
+.booking_dd .booking_ticket .ticket_img {
+    position: relative;
+    height: 93px;
+    width: 370px;
+    margin: 30px 0;
+}
+
+.booking_dd .booking_ticket .ticket_img .ticketpone {
+    position: absolute;
+    top: 14px;
+    left: 150px;
+    font-size: 16px;
+}
+
+.booking_dd .booking_ticket .ticket_img .ticketptwo {
+    position: absolute;
+    top: 54px;
+    left: 150px;
+    cursor: default;
+}
+
+.booking_dd .booking_ticket .ticket_img .ticketptwo input {
+    width: 85px;
+}
+
+.booking_dd .booking_ticket .ticket_img>span {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 56px;
+    left: 310px;
+    background: url(../images/booking/tickets_rili.png);
+}
+
+.booking_dd .booking_ticket .ticket_number {
+    position: absolute;
+    width: 133px;
+    height: 22px;
+    top: 43px;
+    left: 620px;
+}
+
+.booking_dd .booking_ticket .ticket_number p {
+    float: left;
+    line-height: 22px;
+}
+
+.booking_dd .booking_ticket .ticket_number ul {
+    float: right;
+    width: 84px;
+    height: 20px;
+    border: 1px solid #000;
+}
+
+.booking_dd .booking_ticket .ticket_number ul li {
+    float: left;
+    width: 22px;
+    height: 20px;
+}
+
+.booking_dd .booking_ticket .ticket_number ul li:nth-child(1) span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    margin-left: 2px;
+    background: url(../images/booking/ticket_jian.png);
+}
+
+.booking_dd .booking_ticket .ticket_number ul li:nth-child(2) {
+    float: left;
+    width: 40px;
+    height: 20px;
+}
+
+.booking_dd .booking_ticket .ticket_number ul li:nth-child(3) span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    margin-left: 2px;
+    background: url(../images/booking/ticket_jia.png);
+}
+
+.booking_dd .booking_ticket .ticket_number input {
+    width: 36px;
+    height: 16px;
+    text-align: center;
+}
+
+.booking_dd .booking_ticket .ticket_amount {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 1020px;
+    top: 84px;
+}
+
+.booking_dd .booking_ticket .ticket_amount p {
+    font-size: 16px;
+}
+
+.booking_dd .booking_ticket .ticket_amount span {
+    font-size: 20px;
+    color: red;
+}
+
+.booking_dd .ticket_information {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+input.error {
+    border: 1px solid red;
+    height: 32px !important;
+}
+
+label.error {
+    margin-left: 8px;
+    color: red;
+    font-size: 10px;
+}
+
+.booking_dd .ticket_information p {
+    width: 100%;
+    height: 60px;
+}
+
+.booking_dd .ticket_information p:first-child {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.booking_dd .ticket_information p input {
+    width: 480px;
+    height: 30px;
+    margin-left: 35px;
+}
+
+.booking_dd .ticket_information textarea {
+    position: absolute;
+    top: 267px;
+    left: 106px;
+    width: 580px;
+    height: 110px;
+    resize: none;
+}
+
+.booking_dd .ticket_information p span {
+    color: red;
+}
+
+.booking_dd .ticket_prompt {
+    padding: 30px 0;
+    border-bottom: 1px dotted #000;
+}
+
+.booking_dd .ticket_prompt p {
+    line-height: 24px;
+}
+
+.booking_dd .ticket_prompt p:first-child {
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.booking_dd .ticket_settlement {
+    padding: 30px 0;
+}
+
+.booking_dd .ticket_settlement .copewith {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background: rgba(223, 220, 223, 0.65);
+}
+
+.booking_dd .ticket_settlement .copewith p {
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    top: 35px;
+    left: 900px;
+}
+
+.booking_dd .ticket_settlement .copewith p span {
+    color: red;
+}
+
+.booking_dd .ticket_tjbnt {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.booking_dd .ticket_tjbnt>div {
+    float: right;
+    width: 170px;
+    height: 60px;
+    background: #db1900;
+    text-align: center;
+}
+
+.booking_dd .ticket_tjbnt>div>a {
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    font-size: 18px;
+    color: #fff;
+}

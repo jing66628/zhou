@@ -1,0 +1,157 @@
+﻿{include file='layout/header'}
+
+<section class="Hui-article-box">
+    <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 产品管理 <span class="c-gray en">&gt;</span> 订单列表<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:window.location.href='{:url('Order/lst')}';"
+            title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+    <div class="Hui-article">
+        <article class="cl pd-20">
+            <form action="{:url('Order/lst')}" method="GET">
+                <div class="text-c"> 游玩日期范围：
+                    <input type="text" name="start_time" onfocus="selecttime(1)" value="{$Think.get.start_time}" id="datemin" class="input-text Wdate" style="width:120px;" autocomplete="off"> -
+                    <input type="text" name="end_time" onfocus="selecttime(2)" value="{$Think.get.end_time}" id="datemax" class="input-text Wdate" style="width:120px;" autocomplete="off">
+                    <input type="text" class="input-text" style="width:250px" value="{$Think.get.order_user}" placeholder="输入会员名称" id="" name="order_user">
+                    <button type="submit" class="btn btn-success radius" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜用户</button>
+                </div>
+            </form>
+            <div class="mt-20">
+                <table class="table table-border table-bordered table-hover table-bg table-sort">
+                    <thead>
+                        <tr class="text-c">
+                            <th width="100">ID</th>
+                            <th width="180">门票种类</th>
+                            <th width="140">订单编号</th>
+                            <th width="110">游玩日期</th>
+                            <th width="100">订票姓名</th>
+                            <th width="170">身份证</th>
+                            <th width="120">手机</th>
+                            <th>备注</th>
+                            <th width="80">单价</th>
+                            <th width="65">数量</th>
+                            <th width="80">总价</th>
+                            <th width="110">下单用户</th>
+                            <th width="180">创建时间</th>
+                            <th width="65">操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {foreach $data as $k=>$v}
+                        <tr class="text-c">
+                            <td>{$v.id}</td>
+                            <td>{$v.product_name}</td>
+                            <td>{$v.order_id}</td>
+                            <td>{$v.paly_date}</td>
+                            <td>{$v.user_name}</td>
+                            <td>{$v.user_iacard}</td>
+                            <td>{$v.user_phone}</td>
+                            <td>{$v.user_note}</td>
+                            <td><span>{$v.tickets_unit}</span> 元</td>
+                            <td>{$v.tickets_num}</td>
+                            <td><span>{$v.tickets_total}</span> 元</td>
+                            <td>{$v.order_user}</td>
+                            <td>{$v.create_time}</td>
+                            <td class="td-manage"> <a title="删除订单" href="javascript:;" onclick="member_del(this,{$v.id})" class="ml-5" style="text-decoration:none; margin-left: 0px;"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+                        </tr>
+                        {/foreach}
+                    </tbody>
+                </table>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!--_footer 作为公共模版分离出去-->
+{include file='layout/footer'}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/admin/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/admin/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('.table-sort').dataTable({
+            "aaSorting": [
+                [0, "asc"]
+            ], //默认第几个排序
+            "bStateSave": false, //状态保存
+            "aoColumnDefs": [
+                //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+                {
+                    "orderable": false,
+                    "aTargets": [2, 5, 6, 7, 8, 10, 13]
+                } // 制定列不参与排序
+            ]
+        });
+        $('.table-sort tbody').on('click', 'tr', function() {
+            if ($(this).hasClass('selected')) {
+                $(this).removeClass('selected');
+            } else {
+                table.$('tr.selected').removeClass('selected');
+                $(this).addClass('selected');
+            }
+        });
+    });
+
+    /*用户-删除*/
+    function member_del(obj, id) {
+        layer.confirm('确认要删除订单吗？', function(index) {
+            //此处请求后台程序，下方是成功后的前台处理……
+            //用ajax进行数据删除
+            $.ajax({
+                type: 'post', //提交方式
+                url: "{:url('del')}", //提交的地址
+                data: {
+                    'id': id, //提交的数据    以json格式写的数据
+                },
+                dataType: 'json', //告诉后端给我传什么格式的数据
+                success: function(res) { //后端给我成功返回了数据
+                    if (res.status == 1) { //判断返回的消息内容，若等于1,则删除成功
+                        $(obj).parents("tr").remove(); //把a标签上的所有祖先元素中的tr元素（即当前行）删除
+                        layer.msg(res.msg, {
+                            icon: 1,
+                            time: 1000
+                        });
+                    } else {
+                        layer.msg(res.msg, {
+                            icon: 2,
+                            time: 1000
+                        });
+                    }
+                }
+            })
+
+
+        });
+    }
+    //时间插件
+    function selecttime(flag) {
+        if (flag == 2) {
+            var endTime = $("#countTimeend").val();
+            if (endTime != "") {
+                WdatePicker({
+                    dateFmt: 'yyyy-MM-dd',
+                    maxDate: endTime
+                })
+            } else {
+                WdatePicker({
+                    dateFmt: 'yyyy-MM-dd',
+                })
+            }
+        } else {
+            var startTime = $("#countTimestart").val();
+            if (startTime != "") {
+                WdatePicker({
+                    dateFmt: 'yyyy-MM-dd',
+                    minDate: startTime
+                })
+            } else {
+                WdatePicker({
+                    dateFmt: 'yyyy-MM-dd',
+                })
+            }
+        }
+    }
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+
+</html>
