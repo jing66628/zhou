@@ -28,7 +28,7 @@ CREATE TABLE `zz_admin` (
 -- ----------------------------
 CREATE TABLE `zz_article` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
-  `title` varchar(80) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+  `title` varchar(80) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `content` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `author` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `update_time` int(50) NOT NULL,
